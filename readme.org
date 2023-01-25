@@ -6,10 +6,11 @@ The Python code for this repository was taken from the Twitter example code and 
 
 * Requirements for this exercise:
 - A Twitter Developers account, with the associated API Key and API Key Secret, Access Token and Access Token Secret, and Bearer Token. The "user authentication" must be set up with OAuth 1.0a Authentication permissions for the app to to read, write, and send DMs. This can be accessed within the Developer Portal Dashboard at https://developer.twitter.com/en/portal/dashboard.
-  [[image:~/scratch/testimage.png]]
-  From here, click on the settings icon for this project app.
-  [[file:testimage.png]]
-  From the app settings, scroll down to the *User Authentication* and click on the Edit icon. From here, change the app permissions so that the app has permissions to read, write, and send DMs. You will also need to indicate which type of app you are creating. Completing this step also requires you to add a redirect URL and a website URL, but I had no issues putting https://www.google.com for both of these answers. If you have a perosnal website, props to you, and feel free to add it as the website URL!
+  - From here, click on the settings icon for this project app.
+    [[file:images/cewit1.png]]
+  - From the app settings, scroll down to the *User Authentication* and click on the Edit icon.
+  - From here, change the app permissions so that the app has permissions to read, write, and send DMs. You will also need to indicate which type of app you are creating. Completing this step also requires you to add a redirect URL and a website URL, but I had no issues putting https://www.google.com for both of these answers. If you have a personal website, props to you, and feel free to add it as the website URL!
+    [[file:images/cewit2.png]]
 - An IDE that can run Python (I prefer VS Code)
 - The library ~requests_oauthlib~: This library is available for download through pip3, which you should have if you've worked with Python. To install this library, run the command ~$ pip3 install requests_oauthlib~
 
