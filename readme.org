@@ -15,7 +15,7 @@ The Python code for this repository was taken from the Twitter example code and 
 
 Prior to running the code for this workshop, please set your API Key and API Key Secret as environmental variables in the following format:
 in your terminal please set your environment variables by running the following lines of code.
-~$ export 'CONSUMER_KEY'='<your_consumer_key>'~
-~$ export 'CONSUMER_SECRET'='<your_consumer_secret>'~
+~$ export 'CONSUMER_KEY'='<your_consumer_key>
+$ export 'CONSUMER_SECRET'='<your_consumer_secret>'~
 
 When you run the program, you will be prompted to enter a URL into your browser to get a PIN to authorize access to that Twitter account. You will need to be logged into the Twitter account you want to tweet from for this step.
